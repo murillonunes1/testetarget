@@ -22,4 +22,7 @@ K = K + 1;: A cada iteração do loop, o valor de K é incrementado em 1.
 SOMA = SOMA + K;: A cada iteração, o valor atual de K é somado ao valor atual de SOMA. Isso acumula a soma dos números de 1 até INDICE.
 
 console.log(SOMA);: Após o loop terminar, o valor final da soma é impresso no console.
+
+A variável K começa em 0 e é incrementada em 1 a cada iteração do loop. Portanto, o loop adiciona os números de 1 até 13 à variável SOMA. 
+Isso significa que o valor final de SOMA será a soma de todos os números de 1 a 13. Logo a SOMA=91.
 FIM

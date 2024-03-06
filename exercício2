@@ -1,0 +1,16 @@
+function fibonacciSequence(n) {
+    let fibonacci = [0, 1];
+    while (fibonacci[fibonacci.length - 1] < n) {
+        fibonacci.push(fibonacci[fibonacci.length - 1] + fibonacci[fibonacci.length - 2]);
+    }
+    
+    return fibonacci.includes(n);
+}
+
+let numero = parseInt(prompt("Informe um número: "));
+
+if (fibonacciSequence(numero)) {
+    console.log(`O número ${numero} pertence à sequência de Fibonacci.`);
+} else {
+    console.log(`O número ${numero} não pertence à sequência de Fibonacci.`);
+}

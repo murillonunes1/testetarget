@@ -1,0 +1,4 @@
+Eu ligaria o interruptor e aguardaria alguns minutos e depois desligaria o primeiro interruptor e ligaria o segundo interruptor. 
+Ao entrar na sala onde estão as lâmpadas, eu chegaria a conclusao de que: se a lâmpada estiver acesa, logo ela é controlada pelo primeiro interruptor.
+Se a lâmpada estiver recém apagada, logo ela é controlada pelo segundo interruptor. Se a lâmpada estiver apagada e não apresentar sinais que estava ligada (fria), chegarei a conclusão de que ela é controlada pelo terceiro interruptor. 
+Dessa forma, com apenas duas visitas a sala das lâmpadas, eu conseguiria determinar qual interruptor controla qual lâmpada.

@@ -14,3 +14,7 @@ if (fibonacciSequence(numero)) {
 } else {
     console.log(`O número ${numero} não pertence à sequência de Fibonacci.`);
 }
+
+//Este código cria uma função chamada verificaFibonacci para checar se um número está na sequência de Fibonacci. 
+Ele começa com dois números, 'a' e 'b', sendo inicializados como 0 e 1, respectivamente. Depois, o código executa um loop até que 'b' seja maior que o número fornecido. A cada iteração, 'a' e 'b' são atualizados para os dois números anteriores na sequência de Fibonacci. Se 'b' for igual ao número fornecido, isso indica que o número faz parte da sequência de Fibonacci. 
+Por fim, o programa solicita ao usuário um número e informa se ele está ou não na sequência de Fibonacci, utilizando a função console.log().

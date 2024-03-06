@@ -6,4 +6,13 @@ for(var i = s.Length-1; i>=0; i--)
     sb.Append(s[i]);                             
 }
 Console.WriteLine(sb.ToString());
-//murillodev
+
+//string s = "Teste Target";: Define uma string inicial chamada s com o valor "Teste Target".
+
+StringBuilder sb = new StringBuilder();: Cria um objeto StringBuilder vazio chamado sb.
+
+for(var i = s.Length-1; i>=0; i--): Este é um loop for que percorre a string s de trás para frente. Ele começa com o índice do último caractere da string (s.Length - 1) e decrementa até zero.
+
+sb.Append(s[i]);: Dentro do loop, a cada iteração, o caractere na posição i da string s é adicionado ao StringBuilder sb usando o método Append().
+
+Console.WriteLine(sb.ToString());: Depois de inverter todos os caracteres da string s usando o loop, o conteúdo do StringBuilder é convertido de volta para uma string usando o método ToString() e, em seguida, impresso no console usando Console.WriteLine().

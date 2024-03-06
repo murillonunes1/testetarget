@@ -8,3 +8,18 @@ while (K < INDICE) {
 }
 
 console.log(SOMA);
+
+//let INDICE = 13;: Define a variável INDICE com o valor de 13.
+
+let SOMA = 0;: Inicializa a variável SOMA com o valor de 0.
+
+let K = 0;: Inicializa a variável K com o valor de 0.
+
+while (K < INDICE) { ... }: Este é um loop while que continuará executando enquanto o valor de K for menor que o valor de INDICE.
+
+K = K + 1;: A cada iteração do loop, o valor de K é incrementado em 1.
+
+SOMA = SOMA + K;: A cada iteração, o valor atual de K é somado ao valor atual de SOMA. Isso acumula a soma dos números de 1 até INDICE.
+
+console.log(SOMA);: Após o loop terminar, o valor final da soma é impresso no console.
+FIM
